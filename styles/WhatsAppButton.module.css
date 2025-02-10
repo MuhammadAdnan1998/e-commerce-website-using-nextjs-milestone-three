@@ -1,0 +1,146 @@
+.whatsAppContainer {
+    position: fixed;
+    bottom: 23px;
+    right: 30px;
+    z-index: 1000;
+  }
+  
+  .whatsAppButton {
+    background-color: white;
+    border-radius: 50%;
+    padding: 14px;
+    cursor: pointer;
+    color: #161616;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  @media (max-width: 600px) {
+    .whatsAppButton {
+      background-color: white;
+      border-radius: 50%;
+      padding: 12px;
+      cursor: pointer;
+      color: #161616;
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    
+    .chatBox {
+      position: fixed;
+      bottom: 30px;
+      right: 20px;
+      width: 300px;
+      height: 400px;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      z-index: 1000;
+      font-family: Arial, sans-serif;
+    }
+
+  }
+  
+  .logoAnimation {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+@media(min-width: 740px) {
+  .chatBox {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+  }
+}
+  
+ 
+  
+  .profilePicture img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+   
+  
+  .greeting span {
+    font-size: 12px;
+    display: block;
+    color: #d4edda;
+  }
+  
+  .body {
+    padding: 10px;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 1px 8px 0px 8px;
+    
+   
+  }
+  
+  .emojiIcon {
+    font-size: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .messageInput {
+    flex-grow: 1;
+    border: none;
+    padding: 8px;
+    margin-right: 8px;
+    margin-left: 3px;
+    outline: none;  
+    box-shadow: none;
+    background: transparent;
+  }
+  
+  .sendButton {
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
