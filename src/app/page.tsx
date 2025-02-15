@@ -7,9 +7,9 @@ export default function Home() {
         <Image
           className="dark:invert"
           src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
+          alt="Next.js Logo"
+          width={200}
+          height={200}
           priority
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
@@ -33,9 +33,9 @@ export default function Home() {
             <Image
               className="dark:invert"
               src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              width={100}
+              height={100}
+              alt="Vercel Logo"
             />
             Deploy now
           </a>
